@@ -40,7 +40,7 @@ class EvINRModel(nn.Module):
         )
         return (temperal_loss + spatial_loss + const_loss)
     
-    def tonemapping(self, log_intensity_preds, gamma=1):
+    def tonemapping(self, log_intensity_preds, gamma=0.6):
         intensity_preds = torch.exp(log_intensity_preds).detach()
         # Reinhard tone-mapping
         intensity_preds = (intensity_preds / (1 + intensity_preds)) ** (1 / gamma)
