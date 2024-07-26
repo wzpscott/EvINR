@@ -23,7 +23,7 @@ Comprehensive experiments demonstrate that our EvINR surpasses previous SSL meth
 
 ## Google Colab
 <!-- If you want to do a quick test with EvINR, we have written a [Colab](https://colab.research.google.com/drive/1pYlZ9UU1nsB1XIUc25jZD7z_97pGssQg?usp=sharing) with minimal implementation, which can be viewed online (which means you don't have to install anything!) -->
-If you're eager to give EvINR a spin without the hassle of installations, check out our [Colab notebook](https://colab.research.google.com/drive/1pYlZ9UU1nsB1XIUc25jZD7z_97pGssQg?usp=sharing) for a quick and easy test run. It's all set up for you to play around with online!
+If you want to give EvINR a spin without the hassle of installations, check out our [Colab notebook](https://colab.research.google.com/drive/1pYlZ9UU1nsB1XIUc25jZD7z_97pGssQg?usp=sharing) for a quick and easy test run. It's all set up for you to play around with online!
 
 ## Overview
 This repository is organized as follows:
