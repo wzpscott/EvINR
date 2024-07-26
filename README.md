@@ -1,6 +1,6 @@
 # Revisit Event Generation Model: Self-Supervised Learning of Event-to-Video Reconstruction with Implicit Neural Representations (ECCV2024)
 ### [Project Page](https://vlislab22.github.io/EvINR/) | [Paper](xxxx) | [Data](https://pan.baidu.com/s/1grYAM5GTq2mURvvUMBmaWg?pwd=2u2q)
-<!-- [![Explore Siren in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vsitzmann/siren/blob/master/explore_siren.ipynb)<br> -->
+[![Minimal EvINR in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pYlZ9UU1nsB1XIUc25jZD7z_97pGssQg?usp=sharing)<br>
 
 [Zipeng Wang](https://scholar.google.com/citations?user=3w7X6NYAAAAJ),
 [Yunfan Lu](https://scholar.google.com/citations?user=nPUR_0sAAAAJ),
@@ -21,6 +21,10 @@ The INR, parameterized as a fully-connected Multi-layer Perceptron (MLP), can be
 To make EvINR feasible for online requisites, we propose several acceleration techniques that substantially expedite the training process. 
 Comprehensive experiments demonstrate that our EvINR surpasses previous SSL methods by 38% w.r.t. Mean Squared Error (MSE) and is comparable or superior to SoTA supervised methods.*
 
+## Google Colab
+<!-- If you want to do a quick test with EvINR, we have written a [Colab](https://colab.research.google.com/drive/1pYlZ9UU1nsB1XIUc25jZD7z_97pGssQg?usp=sharing) with minimal implementation, which can be viewed online (which means you don't have to install anything!) -->
+If you're eager to give EvINR a spin without the hassle of installations, check out our [Colab notebook](https://colab.research.google.com/drive/1pYlZ9UU1nsB1XIUc25jZD7z_97pGssQg?usp=sharing) for a quick and easy test run. It's all set up for you to play around with online!
+
 ## Overview
 This repository is organized as follows:
 
@@ -28,7 +32,7 @@ This repository is organized as follows:
 * model.py: Contains our neural network solver for event-based video reconstruction.
 * utils.py: Contains utility functions for event data manipulation and visualization.
 * train.py: Contains the training routine.
-scripts/: Converts common event datasets into formats used in our work.
+* scripts/: Converts common event datasets into formats used in our work.
 ## AED Dataset
 We release our ALPIX Event Dataset (AED) [here](https://pan.baidu.com/s/1grYAM5GTq2mURvvUMBmaWg?pwd=2u2q) (password: 2u2q).
 
@@ -163,21 +167,10 @@ The helmholtz and wave equation experiments can be reproduced with the train_wav
 We're using the excellent [torchmeta](https://github.com/tristandeleu/pytorch-meta) to implement hypernetworks. We 
 realized that there is a technical report, which we forgot to cite - it'll make it into the camera-ready version! -->
 
-<!-- ## Citation
+## Citation
 If you find our work useful in your research, please cite:
 ```
-@inproceedings{sitzmann2019siren,
-    author = {Sitzmann, Vincent
-              and Martel, Julien N.P.
-              and Bergman, Alexander W.
-              and Lindell, David B.
-              and Wetzstein, Gordon},
-    title = {Implicit Neural Representations
-              with Periodic Activation Functions},
-    booktitle = {arXiv},
-    year={2024}
-}
-``` -->
+```
 
 ## Contact
 If you have any questions, please feel free to email the authors or raise an issue.
