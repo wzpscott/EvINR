@@ -39,7 +39,7 @@ We release our ALPIX Event Dataset (AED) [here](https://pan.baidu.com/s/1grYAM5G
 ## Data Preparation
 We currently provide conversion scripts for the following datasets: [IJRR](https://rpg.ifi.uzh.ch/davis_data.html), [HQF](https://drive.google.com/drive/folders/18Xdr6pxJX0ZXTrXW9tK0hC3ZpmKDIt6_), and [CED](https://rpg.ifi.uzh.ch/CED.html). Our AED dataset does not require further conversion.
 
-To process your own dataset, please convert the event data into a numpy array with the shape $[N \times 4]$, where N is the total number of events. The properties of each event should be $(t, x, y, p)$, where $p \in \{-1, 1\}$.
+To process your own dataset, please convert the event data into a numpy array with the shape $[N \times 4]$, where N is the total number of events. The properties of each event should be $(t, x, y, p)$, where $p \in {-1, 1}$.
 
 ## Training
 We provide the example commands to train EvINR on different dataset.
