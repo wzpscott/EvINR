@@ -10,7 +10,8 @@ The Hong Kong University of Science and Technology (Guangzhou).
 This is the official implementation of the paper "Revisit Event Generation Model: Self-Supervised Learning of Event-to-Video Reconstruction with Implicit Neural Representations" .
 
 ## Abstract
-Reconstructing intensity frames from event data while maintaining high temporal resolution and dynamic range is crucial for bridging the gap between event-based and frame-based computer vision. 
+![Framework](assets/framework.png)
+*Reconstructing intensity frames from event data while maintaining high temporal resolution and dynamic range is crucial for bridging the gap between event-based and frame-based computer vision. 
 Previous approaches have depended on supervised learning on synthetic data, which lacks interpretability and risk over-fitting to the setting of the event simulator. 
 Recently, self-supervised learning (SSL) based methods, which primarily utilize per-frame optical flow to estimate intensity via photometric constancy,  has been actively investigated. However, they are vulnerable to errors in the case of inaccurate optical flow.
 This paper proposes a novel SSL event-to-video reconstruction approach, dubbed EvINR, which eliminates the need for labeled data or optical flow estimation.
@@ -18,7 +19,7 @@ Our core idea is to reconstruct intensity frames by directly addressing the even
 Specifically, we utilize an implicit neural representation (INR), which takes in spatiotemporal coordinate (x, y, t) and predicts intensity values, to represent the solution of the event generation equation. 
 The INR, parameterized as a fully-connected Multi-layer Perceptron (MLP), can be optimized with its temporal derivatives supervised by events.
 To make EvINR feasible for online requisites, we propose several acceleration techniques that substantially expedite the training process. 
-Comprehensive experiments demonstrate that our EvINR surpasses previous SSL methods by 38% w.r.t. Mean Squared Error (MSE) and is comparable or superior to SoTA supervised methods.
+Comprehensive experiments demonstrate that our EvINR surpasses previous SSL methods by 38% w.r.t. Mean Squared Error (MSE) and is comparable or superior to SoTA supervised methods.*
 
 ## Overview
 This repository is organized as follows:
@@ -39,12 +40,7 @@ To process your own dataset, please convert the event data into a numpy array wi
 ## Training
 We provide the example commands to train EvINR on different dataset.
 
-### IJRR
-```
-python train.py -n EXP_NAME -d DATA_PATH --H 240 --W 180
-```
-
-### HQF
+### IJRR and HQF
 ```
 python train.py -n EXP_NAME -d DATA_PATH --H 240 --W 180
 ```
