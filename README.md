@@ -1,5 +1,5 @@
 # Revisit Event Generation Model: Self-Supervised Learning of Event-to-Video Reconstruction with Implicit Neural Representations (ECCV2024)
-### [Project Page](https://vlislab22.github.io/EvINR/) | [Paper](xxxx) | [Data](https://pan.baidu.com/s/1grYAM5GTq2mURvvUMBmaWg?pwd=2u2q)
+### [Project Page](https://vlislab22.github.io/EvINR/) | [Paper](https://arxiv.org/abs/2407.18500)
 [![Minimal EvINR in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pYlZ9UU1nsB1XIUc25jZD7z_97pGssQg?usp=sharing)<br>
 
 [Zipeng Wang](https://scholar.google.com/citations?user=3w7X6NYAAAAJ),
