@@ -33,8 +33,9 @@ This repository is organized as follows:
 * utils.py: Contains utility functions for event data manipulation and visualization.
 * train.py: Contains the training routine.
 * scripts/: Converts common event datasets into formats used in our work.
+
 ## AED Dataset
-We release our ALPIX Event Dataset (AED) [here](https://pan.baidu.com/s/1grYAM5GTq2mURvvUMBmaWg?pwd=2u2q) (password: 2u2q).
+If you are interested in our ALPIX Event Dataset (AED), please contact wzpscott@gmail.com.
 
 ## Data Preparation
 We currently provide conversion scripts for the following datasets: [IJRR](https://rpg.ifi.uzh.ch/davis_data.html), [HQF](https://drive.google.com/drive/folders/18Xdr6pxJX0ZXTrXW9tK0hC3ZpmKDIt6_), and [CED](https://rpg.ifi.uzh.ch/CED.html). Our AED dataset does not require further conversion.
